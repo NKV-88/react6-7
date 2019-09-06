@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack",
     "watch": "webpack --mode development --watch",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open"
   },
   "author": "",
   "license": "ISC",
@@ -15,14 +16,17 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
+    "bootstrap": "^4.3.1",
     "create-react-class": "^15.6.3",
     "css-loader": "^3.2.0",
     "mdbreact": "^4.19.1",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-router": "^3.2.4",
     "style-loader": "^1.0.0",
     "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
   }
 }
