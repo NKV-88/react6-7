@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Router, Route, IndexRoute, browserHistory} from 'react-router'
-
+import {redux} from redux;
+ 
 
 import Layout from './app/layouts/Layout';
 import Main from './app/pages/Main';
